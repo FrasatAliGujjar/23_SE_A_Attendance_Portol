@@ -1,0 +1,1774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23 - SE [A] - (Attendance)</title>
+
+    <!-- Css file link  -->
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fav Icon  -->
+    <link rel="Icon" href="images/logo.png">
+
+    <!-- Bootstrap Links  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Google Fonts Links  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+
+    <!-- Css Paste  -->
+
+    <!-- font-family: 'Fasthand', cursive; -->
+
+
+    <!-- Font Awosome Icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+
+<!-- ==================================================================================================== -->
+
+<body>
+
+
+    <!-- Nav Bar -->
+    <div class="col-lg-12 col-md-12 col-sm-12 nav_right_main">
+
+        <nav class="navbar navbar-expand-lg" style="background-color: rgba(0,0,0,0);padding-top: 0px;">
+            <div class="container-fluid nav_bar_main_container">
+
+                <a class="navbar-brand nav_bar_logo_bar" href="index.html">
+                    <img src="images/logo.png" alt="logo" class="logo">
+                </a>
+                <a class="navbar-brand nav_bar_title_bar" href="index.html">
+                    <p class="title">NTU - Attendance Portal</p>
+                </a>
+                <button class="navbar-toggler" type="" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 list_main">
+                        <li class="nav-item" id="nav-btn1">
+                            <a class="nav-link active" aria-current="page" href="index.html">
+                                <p class="home-btn">Attendance</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item" id="nav-btn">
+                            <a class="nav-link" href="about.html">
+                                <p class="home-btn">About</p>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- =========================================================================================== -->
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <!-- ---------------------------- -->
+                <div class="container-fluid  form_heading">
+                    <div class="row">
+                        <div class="col-12" style="color: wheat;font-size: 30px;text-align: center;">
+                            23 - SE [A] - (Attendance)
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="container-fluid mt-1 mb-5 form_main">
+
+                    <!-- Student # 1 -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1121</b> - Muhammad Faizan
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1121" onclick="P_1121()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1121" onclick="A_1121()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  2-->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1122</b> - Muhammad Hamza
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1122" onclick="P_1122()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1122" onclick="A_1122()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  3-->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1123</b> - Muhammad Sufian
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1123" onclick="P_1123()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1123" onclick="A_1123()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  4-->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1124</b> - Muhammad Abdullah SALEEM
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1124" onclick="P_1124()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1124" onclick="A_1124()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  5-->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1125</b> - Muhammad Adil Farooq
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1125" onclick="P_1125()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1125" onclick="A_1125()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1126</b> - Muhammad Ahmad FAIZAN
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1126" onclick="P_1126()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1126" onclick="A_1126()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1127</b> - Muhammad ALI QAISER
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1127" onclick="P_1127()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1127" onclick="A_1127()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1128</b> - Muhammad Ansab Raza
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1128" onclick="P_1128()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1128" onclick="A_1128()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1129</b> - Muhammad Asad
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1129" onclick="P_1129()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1129" onclick="A_1129()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1130</b> - Muhammad Asad Taj
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1130" onclick="P_1130()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1130" onclick="A_1130()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1131</b> - Muhammad Awais
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1131" onclick="P_1131()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1131" onclick="A_1131()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1132</b> - Muhammad Azeem
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1132" onclick="P_1132()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1132" onclick="A_1132()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1133</b> - Muhammad Bilal RAZA
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1133" onclick="P_1133()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1133" onclick="A_1133()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1134</b> - Muhammad Fayyaz AHMED
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1134" onclick="P_1134()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1134" onclick="A_1134()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1135</b> - M. HAMDAN MASOOD
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1135" onclick="P_1135()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1135" onclick="A_1135()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1136</b> - Muhammad Hammas
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1136" onclick="P_1136()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1136" onclick="A_1136()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1137</b> - M. HASSAN KALEEM
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1137" onclick="P_1137()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1137" onclick="A_1137()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1138</b> - Muhammad Husnain akram
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1138" onclick="P_1138()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1138" onclick="A_1138()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1139</b> - Muhammad Ibrahim
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1139" onclick="P_1139()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1139" onclick="A_1139()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1140</b> - Muhammad Kaif
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1140" onclick="P_1140()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1140" onclick="A_1140()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1141</b> - Muhammad Muneeb Asghar
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1141" onclick="P_1141()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1141" onclick="A_1141()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1305</b> - Muhammad Munnan ARSHAD
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1305" onclick="P_1305()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1305" onclick="A_1305()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1143</b> - Muhammad Salman Akram
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1143" onclick="P_1143()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1143" onclick="A_1143()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1144</b> - Muhammad Sami Sadiq
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1144" onclick="P_1144()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1144" onclick="A_1144()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1145</b> - Muhammad Shaban Ahmad
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1145" onclick="P_1145()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1145" onclick="A_1145()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1146</b> - Muhammad Taha Naeem
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1146" onclick="P_1146()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1146" onclick="A_1146()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1147</b> - Muhammad Umer saeed
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1147" onclick="P_1147()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1147" onclick="A_1147()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1148</b> - Muhammad waleed
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1148" onclick="P_1148()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1148" onclick="A_1148()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1149</b> - Muhammad Zonair
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1149" onclick="P_1149()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1149" onclick="A_1149()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1150</b> - Noor Fatima
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1150" onclick="P_1150()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1150" onclick="A_1150()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1151</b> - Noor -Ul-Aain
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1151" onclick="P_1151()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1151" onclick="A_1151()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1152</b> - Qamber Ali
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1152" onclick="P_1152()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1152" onclick="A_1152()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1153</b> - Rabia M.Shahid
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1153" onclick="P_1153()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1153" onclick="A_1153()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1154</b> - Rana Hussain Ahmad
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1154" onclick="P_1154()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1154" onclick="A_1154()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1155</b> - Rida-E-Zahra
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1155" onclick="P_1155()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1155" onclick="A_1155()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1156</b> - Rimsha Jafar
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1156" onclick="P_1156()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1156" onclick="A_1156()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1157</b> - SAAD NAVEED
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1157" onclick="P_1157()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1157" onclick="A_1157()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1158</b> - Saad Afzal Bajwa
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1158" onclick="P_1158()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1158" onclick="A_1158()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1159</b> - Salahudin
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1159" onclick="P_1159()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1159" onclick="A_1159()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1160</b> - Saljok Tanveer
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1160" onclick="P_1160()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1160" onclick="A_1160()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1161</b> - Syeda Pakeeza Batoo
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1161" onclick="P_1161()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1161" onclick="A_1161()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1162</b> - Tahir Azeir
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1162" onclick="P_1162()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1162" onclick="A_1162()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1163</b> - Talha
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1163" onclick="P_1163()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1163" onclick="A_1163()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1164</b> - Taqi Subhan
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1164" onclick="P_1164()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1164" onclick="A_1164()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1165</b> - Uswah SHAHID
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1165" onclick="P_1165()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1165" onclick="A_1165()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1166</b> - VANEEZA SOHAIB
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1166" onclick="P_1166()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1166" onclick="A_1166()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1167</b> - Yasir Ali
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1167" onclick="P_1167()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1167" onclick="A_1167()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1168</b> - Zainab Shakeel
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1168" onclick="P_1168()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1168" onclick="A_1168()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1169</b> - Zainab qayyum
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1169" onclick="P_1169()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1169" onclick="A_1169()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1170</b> - Zainab Zia
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1170" onclick="P_1170()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1170" onclick="A_1170()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+
+
+
+
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1292</b> - Bilal
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1292" onclick="P_1292()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1292" onclick="A_1292()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+
+
+
+
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1221</b> - Noor-ul-Ain
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1221" onclick="P_1221()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1221" onclick="A_1221()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+                    <!-- Student #  -->
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 Sname_div">
+
+                            <label for="student_name">
+                                <b style="color: yellow;">1209</b> - Shanza Batool
+                            </label>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="P_Button" id="P_1209" onclick="P_1209()">
+                                Present
+                            </div>
+                            &emsp;
+                            <div type="" class="A_Button" id="A_1209" onclick="A_1209()">
+                                Absent
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <hr style="color: white; width: 100%;border-bottom: 2px solid white;">
+
+
+
+
+
+
+                    <br>
+                    <br>
+
+
+
+
+                    <!-- Sending Button-->
+                    <div class="row mt-2">
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="button" class="S_Button" id="P7" onclick="crwhatsapp()">
+                                <i class="fa-brands fa-whatsapp"></i>&nbsp;
+                                CR. Hadi Muhammad Saeed &emsp;
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="row mt-2">
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="button" class="S_Button" id="P7" onclick="grwhatsapp()">
+                                <i class="fa-brands fa-whatsapp"></i>&nbsp;
+                                GR. Asbah Asif &emsp;
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <!-- <div class="row mt-2">
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 PA_btn_div">
+
+                            <div type="" class="TS_Button" id="P7" onclick="fawhatsapp()">
+                                <i class="fa-brands fa-whatsapp"></i>&nbsp;
+                                Frasat Ali Gujjar &emsp;
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+
+                        </div>
+                    </div> -->
+
+
+
+
+
+                </div>
+
+
+
+
+                <!-- ---------------------------- -->
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ==================================== Footer =================================================  -->
+
+    <div class="card text-center mt-5">
+        <div class="card-header" style="background-color: maroon; text-align: center;">
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <a style="text-decoration: none; color: maroon;" class="nav-link active" aria-current="true"
+                        href="#">Attendance</a>
+                </li>
+
+                &emsp;
+                <li class="nav-item">
+                    <a style="text-decoration: none; color: maroon;" class="nav-link active" href="about.html">About
+                        us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title" style="color: maroon; font-family: Regista_i;">NTU Attendance Portal
+            </h5>
+            <p class="card-text">G.O.A.T&emsp;Production !</p>
+            <a href="#" class="btn btn-danger">BACK</a>
+        </div>
+    </div>
+
+    <!-- ==================================== Footer =================================================  -->
+
+
+
+
+
+
+    <!-- Js Links  -->
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
