@@ -73,7 +73,7 @@ function A_1121() {
     document.getElementById('A_1121').style.cursor = "no-drop";
     S_1121 = "*1121*  "; absent++;
 }
-
+// dsfsdfs
 
 // ==============================    1122      ======================================
 // function P_1122() {
