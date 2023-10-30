@@ -7,7 +7,7 @@ let S_1123 = "";
 let S_1124 = "";
 let S_1125 = "";
 let S_1126 = "";
-let S_1127 = "";
+// let S_1127 = "";
 let S_1128 = "";
 let S_1129 = "";
 let S_1130 = "";
@@ -18,7 +18,7 @@ let S_1134 = "";
 let S_1135 = "";
 let S_1136 = "";
 let S_1137 = "";
-let S_1138 = "";
+// let S_1138 = "";
 let S_1139 = "";
 let S_1140 = "";
 let S_1141 = "";
@@ -46,7 +46,7 @@ let S_1162 = "";
 let S_1163 = "";
 let S_1164 = "";
 let S_1165 = "";
-let S_1166 = "";
+// let S_1166 = "";
 let S_1167 = "";
 let S_1168 = "";
 let S_1169 = "";
@@ -191,15 +191,15 @@ function A_1126() {
 //     S_1127 = "    P"; present++
 // }
 
-function A_1127() {
-    document.getElementById('A_1127').style.background = 'red';
-    document.getElementById('P_1127').style.background = 'gray';
+// function A_1127() {
+//     document.getElementById('A_1127').style.background = 'red';
+//     document.getElementById('P_1127').style.background = 'gray';
 
-    document.getElementById('A_1127').style.display = 'none';
-    document.getElementById('A_1127').style.cursor = "no-drop";
+//     document.getElementById('A_1127').style.display = 'none';
+//     document.getElementById('A_1127').style.cursor = "no-drop";
 
-    S_1127 = "*1127*  "; absent++;
-}
+//     S_1127 = "*1127*  "; absent++;
+// }
 
 
 
@@ -463,17 +463,17 @@ function A_1137() {
 //     S_1138 = "    P"; present++
 // }
 
-function A_1138() {
+// function A_1138() {
 
-    document.getElementById('A_1138').style.background = 'red';
-    document.getElementById('P_1138').style.background = 'gray';
+//     document.getElementById('A_1138').style.background = 'red';
+//     document.getElementById('P_1138').style.background = 'gray';
 
 
-    document.getElementById('A_1138').style.display = 'none';
-    document.getElementById('A_1138').style.cursor = "no-drop";
+//     document.getElementById('A_1138').style.display = 'none';
+//     document.getElementById('A_1138').style.cursor = "no-drop";
 
-    S_1138 = "*1138*  "; absent++;
-}
+//     S_1138 = "*1138*  "; absent++;
+// }
 
 
 
@@ -1075,15 +1075,15 @@ function A_1165() {
 
 //     S_1165 = "    P"; present++
 // }
-function A_1166() {
-    document.getElementById('A_1166').style.background = 'red';
-    document.getElementById('P_1166').style.background = 'gray';
+// function A_1166() {
+//     document.getElementById('A_1166').style.background = 'red';
+//     document.getElementById('P_1166').style.background = 'gray';
 
-    document.getElementById('A_1166').style.display = 'none';
-    document.getElementById('A_1166').style.cursor = "no-drop";
+//     document.getElementById('A_1166').style.display = 'none';
+//     document.getElementById('A_1166').style.cursor = "no-drop";
 
-    S_1166 = "*1166*  "; absent++;
-}
+//     S_1166 = "*1166*  "; absent++;
+// }
 
 
 
@@ -1262,7 +1262,7 @@ function crwhatsapp() {
 
 
 
-    let final_present = 53 - absent;
+    let final_present = 50 - absent;
 
 
     let url = "http://wa.me/923107422926?text="
@@ -1281,11 +1281,11 @@ function crwhatsapp() {
         + "-------------------------------" + "%0a"
         + " " + "%0a"
         + " " + "%0a"
-        + "*Total Present :*" + "    " + (53 - absent) + "%0a"
+        + "*Total Present :*" + "    " + (50 - absent) + "%0a"
         + " " + "%0a"
         + "*Total Absent :*" + "    " + absent + "%0a"
         + " " + "%0a"
-        + "*Percentage :*" + "       " + (final_present / 53) * 100 + "%" + "%0a"
+        + "*Percentage :*" + "       " + (final_present / 50) * 100 + "%" + "%0a"
         + " " + "%0a"
         + " " + "%0a"
         + "-------------------------------" + "%0a"
@@ -1300,7 +1300,7 @@ function crwhatsapp() {
         + S_1124
         + S_1125
         + S_1126
-        + S_1127
+        // + S_1127
         + S_1128
         + S_1129
         + S_1130
@@ -1311,7 +1311,7 @@ function crwhatsapp() {
         + S_1135
         + S_1136
         + S_1137
-        + S_1138
+        // + S_1138
         + S_1139
         + S_1140
         + S_1141
@@ -1339,7 +1339,7 @@ function crwhatsapp() {
         + S_1163
         + S_1164
         + S_1165
-        + S_1166
+        // + S_1166
         + S_1167
         + S_1168
         + S_1169
@@ -1371,7 +1371,7 @@ function grwhatsapp() {
 
 
 
-    let final_present = 53 - absent;
+    let final_present = 50 - absent;
 
 
     let url = "http://wa.me/923035666769?text="
@@ -1390,11 +1390,11 @@ function grwhatsapp() {
         + "-------------------------------" + "%0a"
         + " " + "%0a"
         + " " + "%0a"
-        + "*Total Present :*" + "    " + (53 - absent) + "%0a"
+        + "*Total Present :*" + "    " + (50 - absent) + "%0a"
         + " " + "%0a"
         + "*Total Absent :*" + "    " + absent + "%0a"
         + " " + "%0a"
-        + "*Percentage :*" + "       " + (final_present / 53) * 100 + "%" + "%0a"
+        + "*Percentage :*" + "       " + (final_present / 50) * 100 + "%" + "%0a"
         + " " + "%0a"
         + " " + "%0a"
         + "-------------------------------" + "%0a"
@@ -1409,7 +1409,7 @@ function grwhatsapp() {
         + S_1124
         + S_1125
         + S_1126
-        + S_1127
+        // + S_1127
         + S_1128
         + S_1129
         + S_1130
@@ -1420,7 +1420,7 @@ function grwhatsapp() {
         + S_1135
         + S_1136
         + S_1137
-        + S_1138
+        // + S_1138
         + S_1139
         + S_1140
         + S_1141
@@ -1448,7 +1448,7 @@ function grwhatsapp() {
         + S_1163
         + S_1164
         + S_1165
-        + S_1166
+        // + S_1166
         + S_1167
         + S_1168
         + S_1169
